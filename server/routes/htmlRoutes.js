@@ -7,5 +7,5 @@ module.exports = (app) =>
   // Handling GET requests to the root ('/') of the server.
   app.get('/', (req, res) =>
     // Responding to the request by sending the 'index.html' file located in the 'client/dist' directory
-    res.sendFile(path.join(__dirname, '../client/dist/index.html'))
+    res.sendFile(path.join(__dirname, '.../client/dist/index.html'))
   );

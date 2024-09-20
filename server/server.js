@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Serving static files from the 'dist' directory located inside the 'client' folder
-app.use(express.static('../client/dist'));
+app.use(express.static('./client/dist'));
 
 // Middleware to parse incoming requests with URL-encoded payloads (form submissions)
 app.use(express.urlencoded({ extended: true }));

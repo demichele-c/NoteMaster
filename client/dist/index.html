@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoteMaster</title> <!-- Title of the web page -->
+
+    <!-- CodeMirror CSS for syntax highlighting in the text editor -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.css">
+    </link>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.js">
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/javascript/javascript.min.js">
+    </script>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/monokai.min.css">
+    </link>
+  <script defer src="main.bundle.js"></script><script defer src="install.bundle.js"></script><meta name="theme-color" content="#ffffff" /><link rel="manifest" href="/manifest.c6d45af3362cb81cbda06e642a29fa51.json" /></head>
+
+  <body>
+    <!-- Navigation bar with install button -->
+    <nav id="navbar">
+      <div class="nav-btn">
+        <a class="btn btn-sm btn-dark" id="buttonInstall" role="button">Install!</a>
+      </div>
+      <h1>NoteMaster</h1> <!-- Application Title -->
+
+      <!-- Brand logo in the navbar -->
+      <div class="navbar-brand" 
+        ><img src="./assets/icons/icon_96x96.png"
+      /></div>
+    </nav>
+
+    <!-- Main content of the page -->
+    <main id="main">
+      <!-- Loading spinner while the editor is loading -->
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+      </div>
+    </main>
+    
+  </body>
+</html>
