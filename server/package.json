@@ -1,7 +1,7 @@
 {
     "name": "JATE",
     "version": "1.0.0",
-    "description": "",
+    "description": "A versatile note-taking web app that allows users to create, edit, and manage notes or code snippets both online and offline with seamless storage and retrieval functionality.",
     "main": "server.js",
     "scripts": {
         "server": "nodemon server.js --ignore client"
